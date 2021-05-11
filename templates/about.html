@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
 
     <title>About Us</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
 
 </head>
 
@@ -39,8 +39,8 @@
         </div>
 
     </header>
-    <section id="navbar">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="nav">
+    <section style="color: #0e1021;" id="navbar">
+        <nav style="color: #0e1021;" class="navbar navbar-expand-lg fixed-top navbar-light" id="nav">
             <a class="navbar-brand logo" id="heading" href="#">Intellect 2K21</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,13 +49,13 @@
             <div class="collapse navbar-collapse pad" id="navbarNav" sty>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link list" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link list" href="/">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link list" href="#events">Events</a>
+                        <a class="nav-link list" href="/">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link list" href="" tabindex="-1">About Us</a>
+                        <a class="nav-link list" href="#" tabindex="-1">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link list " href="#footer" tabindex="-1">Contact Us</a>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-lg-5 ml-auto">
+                <div style="color: whitesmoke;" class="col-md-5 col-lg-5 ml-auto">
                     <p><strong>The Department of Computer Science & Engineering</strong> has been in existence since the
                         inception of the Institution. Given the high demand for Computer Science professionals from
                         industry, the department offers undergraduate
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-lg-5 mr-auto order-md-1">
+                <div style="color: whitesmoke;" class="col-md-5 col-lg-5 mr-auto order-md-1">
                     <p>Is quarantine getting to your head? Got a creative block? We have the perfect set of events for
                         you to exploit.Presenting a few activities to airbrush some fun into this awfully restless
                         lockdown. 1 events and plenty of fun and
@@ -155,6 +155,29 @@
                 <div class="row">
                     <div class="col-md-3 ">
                         <div class="speaker text-left">
+                            <a href="#" class="d-block mb-3 thumbnail"><img
+                                    src="/static/static_pics/Dr-Venkatesan-Selvam.jpg" alt="Image"
+                                    class="img-fluid"></a>
+                            <h3 class="heading mb-0"><a href="#" style="color: white;"><span>Dr. Venkatesan Selvam
+                                Dean, SCIMS</span>
+                                    </a></h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="speaker text-left">
+                            <a href="#" class="d-block mb-3 thumbnail"><img
+                                    src="/static/static_pics/DR.E.SYEDMOHAMED.jpg" alt="Image"
+                                    class="img-fluid"></a>
+                            <h3 class="heading mb-0"><a href="#" style="color: white;"><span>Dr. E.Syed Mohamed
+                                Professor & Head</span>
+                                    </a></h3>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 ">
+                        <div class="speaker text-left">
                             <a href="#" class="d-block mb-3 thumbnail"><img src="/static/static_pics/S.P.VALLI_.jpg"
                                     alt="Image" class="img-fluid"></a>
                             <h3 class="heading mb-0"><a href="#" style="color: white;"><span> S.P. Valli
@@ -173,6 +196,7 @@
                             
                         </div>
                     </div>
+                    
                     <div class="col-md-3 ">
                         <div class="speaker text-left">
                             <a href="#" class="d-block mb-3 thumbnail"><img
@@ -523,7 +547,19 @@
                         </div>
                     </div>
                     
-                    
+                    <div class="col-md-3 ">
+
+                        <div class="speaker text-left">
+                            <a href="#" class="d-block mb-3 thumbnail">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+
+                        <div class="speaker text-left">
+                            <a href="#" class="d-block mb-3 thumbnail">
+                        </div>
+                    </div>
 
                     <div class="col-md-3 ">
                         <div class="speaker text-left">
@@ -539,7 +575,7 @@
                     <div class="col-md-3 ">
 
                         <div class="speaker text-left">
-                            <a href="#" class="d-block mb-3 thumbnail"><img src="/static/static_pics/me.jpg" alt="Image"
+                            <a href="#" class="d-block mb-3 thumbnail"><img  src="/static/static_pics/me.jpg" alt="Image"
                                     class="img-fluid"></a>
                             <h3 class="heading mb-0"><a href="#" style="color: white;"><span>Talha Abdur
                                         Rahman</span></a></h3>
@@ -550,7 +586,7 @@
                     <div class="col-md-3 ">
 
                         <div class="speaker text-left">
-                            <a href="#" class="d-block mb-3 thumbnail"><img src="/static/static_pics/nataraj.jpeg"
+                            <a href="#" class="d-block mb-3 thumbnail"><img src="/static/static_pics/nataraj2.jpeg"
                                     alt="Image" class="img-fluid"></a>
                             <h3 class="heading mb-0"><a href="#" style="color: white;"><span>Mr. Shanmuga
                                         Natraj M</span></a></h3>
@@ -569,39 +605,244 @@
 
     <footer id="footer">
         <div class="container footer">
-            <div class="eve-details">
-                <div class="location">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <h4>WHERE</h4>
-                    <p>At your place</p>
-                </div>
-                <div class="time">
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                    <h4>WHEN</h4>
-                    <p>May 8-May 27, 2020</p>
-                </div>
-                <div class="chat">
-                    <i class="fa fa-comments" aria-hidden="true"></i>
-                    <h4>CHAT WITH US</h4>
-                    <p>Email: xxxxxx@gmail.com</p>
-                    <p>Contact: +91 xxxxxxxxx, +91 xxxxxxxxx</p>
-                </div>
-
+          <div class="eve-details">
+            <div class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <h4>WHERE</h4>
+              <p>At your place</p>
             </div>
-
-
-            <div class="social">
-                <a href="#"><i class="fa fa-phone"></i></a>
-                <a href="#"><i class="fa fa-instagram insta"></i></a>
-                <a href="#"><i class="fa fa-twitter twi"></i></a>
-                <a href="#"><i class="fa fa-facebook fb"></i></a>
-                <a href="#"><i class="fa fa-envelope"></i></a>
-
+            <div class="time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <h4>WHEN</h4>
+              <p>May XX-May XX, 2021</p>
             </div>
+            <div class="chat">
+              <i class="fa fa-comments" aria-hidden="true"></i>
+              <h4>CHAT WITH US</h4>
+              <p>Email: intellect2k21@gmail.com</p>
+              <p>Contact: +91 9047593612, +91 9080429925</p>
+            </div>
+  
+          </div>
+          
+          
+          <div class="social">
+            
+            <a href="https://www.instagram.com/intellect2k21/" target="_blank"><i class="fa fa-instagram insta"></i></a>
+            <a href="https://www.youtube.com/channel/UCEKZBHWEwRQ2-7AoAVQ8cag" target="_blank"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://www.facebook.com/Crescent-Intellect-2k21-100576085551846" target="_blank"><i class="fa fa-facebook fb"></i></a>
+            
+            
+            
+          </div>
         </div>
     </footer>
 
-    <script src="/templates/app.js"></script>
+    <script src="/static/js/app.js"></script>
+    <style>.parallaxa{
+        min-height: 50vh;
+        background-size:cover;
+        background: linear-gradient(rgba(173, 169, 169, 0), rgba(0, 0, 0, 0.986)),
+        url(/static/pics/hero_1a.jpg) center/cover no-repeat!important;
+
+    }
+    header {
+        min-height: 100vh;
+    
+        background-size:cover;
+        background: linear-gradient(rgba(173, 169, 169, 0), rgb(0, 0, 0)),
+        url(/static/pics/hero_1a.jpg) center/cover no-repeat!important;
+        
+    }
+    #BGcard{
+        background-color:#0e1021;
+    }
+    #BGcard1{
+        background-color: #0e1021;
+    }
+    .nav-disp{
+        background-color: #0e1021;  
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: 0.3s;
+    }
+    
+#footer{
+    min-height: 66vh;
+    margin-top: -17px;
+    background-color: #2b0634;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 963.2px) {
+    #footer{
+        min-height: 70vh;
+    }
+}
+
+#footer h2{
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+.social{
+    padding-top: 120px;
+}
+
+#footer span{
+    color: #efefef;
+    padding-left: 10px;
+}
+
+.social a{
+    padding:20px ;
+    font-size: 1.5rem;
+    color: grey;
+    
+}
+
+.social{
+    margin-right: 80px;
+    transform: translateY(-70px);
+}
+
+.social a:hover{
+    color: white;
+}
+
+.eve-details{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-top: 70px;
+    color: white;
+    margin-left: 90px;
+}
+
+
+@media only screen and (max-width: 924px) {
+    .chat, .location, .time {
+        font-size: 0.7rem!important;
+        
+       
+    }
+} 
+
+
+
+@media only screen and (max-width: 526px) {
+    .eve-details{
+        flex-flow: column;
+        justify-content: space-evenly;
+        margin-left: -15px;
+        
+        
+       
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .chat, .location, .time {
+        font-size: 0.6rem!important;
+        
+       
+    }
+} 
+
+@media only screen and (max-width: 526px) {
+    .chat i, .location i, .time i{
+        font-size: 1.4rem!important;
+        
+       
+    }
+} 
+
+@media only screen and (max-width: 526px) {
+    .location, .time, .chat{
+        padding: 10px;
+        
+        
+       
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    #footer{
+        min-height: 100vh;
+        
+        
+       
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .social a{
+        
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 526px) {
+    .social {
+       margin-left: 40px;
+       
+        
+        
+    }
+    
+}
+
+
+
+.location i{
+    font-size: 2.5rem;
+}
+
+.location h4{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.time i{
+    font-size: 2.5rem;
+}
+
+.time h4{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.chat i{
+    font-size: 2.5rem;
+}
+
+.chat h4{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.intellect-font{
+    margin-top: 100px;
+    font-family: valorant;
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(Valorant-Font.ttf) format("truetype");
+}
+
+.btn-pad :nth-child(1){
+    padding-right: 20px;
+}
+    </style>
 </body>
 
 </html>

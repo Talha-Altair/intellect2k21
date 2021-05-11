@@ -1,17 +1,70 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
+@app.route('/') 
+def home():
+    return render_template('index.html')
+
+@app.route('/artella') 
+def artella():
+    return render_template('artella.html')
+
+
+@app.route('/valo') 
+def valo():
+    return render_template('valo.html')
+
+
+@app.route('/Cookaholics') 
+def Cookaholics():
+    return render_template('Cookaholics.html')
+
+
+@app.route('/essay') 
+def essay():
+    return render_template('essay.html')
+
+
+@app.route('/photo') 
+def photo():
+    return render_template('photo.html')
+
+
+@app.route('/voice')
+def voice():
+    return render_template('voice.html')
+
+@app.route('/reels') 
+def reels():
+    return render_template('reels.html')
+
+
+@app.route('/meme') 
+def meme():
+    return render_template('meme.html')
+
+
+@app.route('/reachout') 
+def reachout():
+    return render_template('reachout.html')
+
+
+@app.route('/crossword') 
+def crossword():
+    return render_template('crossword.html')
+
+     
+
 @app.route('/about') 
-def hello_world():
+def about_page():
     return render_template('about.html')
 
 
 @app.route('/secret',methods=["POST","GET"])
-def hello_world1():
+def altair():
     return render_template('secret.html')    
 
 """
-
 http://0.0.0.0:8080/api/saponihimym
 
 """
