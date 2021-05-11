@@ -7,8 +7,17 @@ About page:
     Change navbar color and footer color to blue and change text to whitesmoke in said sections
     rearrange pics
 
-valo page:
-    DONE!!
+Completed:
+    valo
+    Artella
+    cooks
+    essay
+    crossword
+    reels
+    meme
+    photo
+    voice
+    reachout
 
 
 
