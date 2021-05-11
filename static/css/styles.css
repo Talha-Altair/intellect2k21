@@ -32,6 +32,7 @@
 }
 @media(max-width: 768px) {
     #landing-logo{
+        font-family: 'Anton', sans-serif;
         font-size: 5em !important;
     }
 }
