@@ -92,7 +92,7 @@ header {
 .hero-content{
     
     float: left;
-    margin-top: 210px;
+    margin-top: 110px;
     color: white;
     font-family: cursive;
     
@@ -417,4 +417,10 @@ div {
 }
 #site-section{
     background-color:#0e1021 ;
+}
+
+.fat::before{
+    color: violet;
+    content: "\a";
+    white-space: pre;
 }
