@@ -355,12 +355,12 @@ html {
     font-size: 1rem;
 }
 
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
     #register{
         padding-top: -80px;
 
     }
-}
+} */
 
 .counter div{
     padding: 30px 40px;
