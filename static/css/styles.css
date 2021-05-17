@@ -33,7 +33,7 @@
 @media(max-width: 100000px) {
     #landing-logo{
         font-family: 'Teko', sans-serif;
-        font-size: 10rem !important;
+        font-size: 9rem !important;
     }
 }
 
@@ -357,7 +357,7 @@ html {
 
 @media(max-width: 768px) {
     #register{
-        transform: translateY(-10%);
+        padding-top: -80px;
 
     }
 }
