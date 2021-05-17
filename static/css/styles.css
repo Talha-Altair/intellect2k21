@@ -32,7 +32,7 @@
 }
 @media(max-width: 768px) {
     #landing-logo{
-        font-family: 'Anton', sans-serif;
+        font-family: 'Teko', sans-serif;
         font-size: 5em !important;
     }
 }
@@ -133,9 +133,7 @@ html {
     float: left;
     margin-top: 150px;
     color: white;
-    font-family: cursive;
     
-    font-family: 'Devonshire', cursive;
 }  
 
 .hero-content h1{
