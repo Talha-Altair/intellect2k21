@@ -346,7 +346,7 @@ html {
 .countdown div{
     color: white;
     padding: 25px;
-    border: 1px solid white;
+    border: 2px solid tomato;
     font-size: 20px;
     text-align: center;
 }
