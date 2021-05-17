@@ -70,7 +70,7 @@ header {
     min-height: 100vh;
 
     background-size:cover;
-    background: linear-gradient(rgba(173, 169, 169, 0), rgb(0, 0, 0)),
+    background: #0e1021
     url(hero_1a.jpg) center/cover no-repeat!important;
     
 }
@@ -114,19 +114,19 @@ header {
     color: white;
 }
 
-.hero-content p{
+/* .hero-content p{
     text-align: center;
     color: white;
     font-size: 25px;
-}
+    padding: 10px 100px;
+} */
 
 .hero-content a{
     margin-left: 40%;
     border: 0px solid white;
-    padding: 15px 50px;
     color: white;
     text-decoration: none;
-    background-color: rgb(241, 60, 28);
+    padding: 10px 100px;
     border-radius: 5px;
 }
 
@@ -137,17 +137,19 @@ header {
 
 
 
-@media only screen and (max-width: 963.2px) {
+/* @media only screen and (max-width: 963.2px) {
     .hero-content h1, .hero-content h3{
         white-space: nowrap;
         font-size: 2rem;
     }
-}
+} */
 
-@media only screen and (max-width: 963.2px) {
+@media only screen and (max-width: 600.2px) {
     .hero-content p{
         white-space: nowrap;
         font-size: 1.5rem;
+        transform: translateX(-50%) !important;
+        /* margin-left: -200px; */
     }
 }
 
@@ -270,7 +272,7 @@ header {
 
 @media only screen and (max-width: 991px) {
     .pad{
-      background:linear-gradient(to left, #000000, #202020);  
+      background:#0e1021;
       
     }
 }
@@ -412,7 +414,7 @@ div {
 .parallaxa{
     min-height: 50vh;
     background-size:cover;
-    background: linear-gradient(rgba(173, 169, 169, 0), rgba(0, 0, 0, 0.986)),
+    background: #0e1021
     url(hero_1a.jpg) center/cover no-repeat!important;
 }
 #site-section{

@@ -36,6 +36,14 @@
         font-size: 5em !important;
     }
 }
+
+/* @media(max-width: 600px) {
+    #navbar{
+        
+
+    }
+}  white-space*/
+
 .landing-con a{
     text-decoration: none;
     border-radius: 50px!important;
