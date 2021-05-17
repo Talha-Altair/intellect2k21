@@ -336,6 +336,26 @@ html {
 
 /* end of landing page */
 
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+
+}
+.countdown div{
+    color: white;
+    padding: 25px;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown div p{
+    color: white;
+
+}
+
 #register{
     padding-top: 100px;
 }
