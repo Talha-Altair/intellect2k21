@@ -83,6 +83,7 @@
             <div id="hrs">00</div>
             <div id="mins">00</div>
             <div id="secs">00</div>
+            <div id="count">0</div>
             <!-- <div id="visit">00</div> -->
           </div>
         </div>
@@ -442,6 +443,18 @@
 
 
    // }) -->
+
+   const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/natraj/count/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = "This Page Was Visited " + res.value + " times." ;
+	})
+}
 
   </script>
 
