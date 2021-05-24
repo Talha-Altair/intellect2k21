@@ -14,6 +14,10 @@ def artella():
 def valo():
     return render_template('valo.html')
 
+@app.route('/admin') 
+def valo():
+    return render_template('admin.html')
+
 
 @app.route('/Cookaholics') 
 def Cookaholics():
