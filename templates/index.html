@@ -83,6 +83,7 @@
             <div id="hrs">00</div>
             <div id="mins">00</div>
             <div id="secs">00</div>
+            <!-- <div id="visit">00</div> -->
           </div>
         </div>
 
@@ -361,7 +362,7 @@
           <p>Email: intellect2k21@gmail.com</p>
           <p>Contact: +91 9047593612, +91 9080429925</p>
         </div>
-        </div>
+      </div>
 
 
       <div class="social">
@@ -372,10 +373,12 @@
         <a href="https://www.facebook.com/Crescent-Intellect-2k21-100576085551846" target="_blank"><i
             class="fa fa-facebook fb"></i></a>
 
-            <a  href="https://crescent.education/university/schools/school-of-computer-information-and-mathematical-sciences/department-of-computer-science-and-engineering/overview/" target="_blank">
-            <img style="max-height: 30px;" src = "/static/220px-B.S._Abdur_Rahman_Crescent_Institute_of_Science_and_Technology_logo.png"  </a>
+        <a href="https://crescent.education/university/schools/school-of-computer-information-and-mathematical-sciences/department-of-computer-science-and-engineering/overview/"
+          target="_blank">
+          <img style="max-height: 30px;"
+            src="/static/220px-B.S._Abdur_Rahman_Crescent_Institute_of_Science_and_Technology_logo.png" </a>
 
-        
+
 
 
 
@@ -407,6 +410,8 @@
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+
+
       //Display the result in the element with id = "demo"
       document.getElementById("days").innerHTML = days + "d ";
 
@@ -414,7 +419,9 @@
 
       document.getElementById("mins").innerHTML = minutes + "m ";
 
-      document.getElementById("secs").innerHTML = seconds + "s ";
+      document.getElementById("secs").innerHTML = seconds + "s";
+
+     
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -423,6 +430,18 @@
       }
     }, 1000);
 
+    // window.addEventListener("DOMContentLoaded", function () {
+
+     // var count = 100;
+      
+     // count++;
+
+     // console.log(count)
+
+    //  document.getElementById("visit").innerHTML = count + "Visits";
+
+
+   // }) -->
 
   </script>
 
