@@ -15,7 +15,7 @@ def valo():
     return render_template('valo.html')
 
 @app.route('/admin') 
-def valo():
+def admin():
     return render_template('admin.html')
 
 
