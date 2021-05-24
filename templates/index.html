@@ -452,7 +452,7 @@ function updateVisitCount() {
 	fetch('https://api.countapi.xyz/update/natraj/count/?amount=1')
 	.then(res => res.json())
 	.then(res => {
-		countEl.innerHTML = "This Page Was Visited " + res.value + " times." ;
+		countEl.innerHTML = "This Page Was Visited " + (res.value+210) + " times." ;
 	})
 }
 
