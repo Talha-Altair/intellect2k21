@@ -96,7 +96,7 @@ html {
 }
 @media(max-width: 768px) {
     #landing-logo{
-        font-size: 5em !important;
+        font-size: 3.8em !important;
     }
 }
 /* ---------------------- */
@@ -328,7 +328,7 @@ html {
 
 
 .nav-disp{
-    background-color:#2b0634; 
+    background-color:#0e1021; 
     top: 0;
     left: 0;
     width: 100%;
@@ -376,7 +376,7 @@ html {
 
 @media only screen and (max-width: 991px) {
     .pad{
-        background-color: #2b0634;  
+        background-color: #0e1021;  
       
     }
 }
@@ -425,7 +425,7 @@ div {
 #footer{
     min-height: 59vh;
     margin-top: -17px;
-    background-color: #2b0634;
+    background-color: #0e1021;
     height: 300px;
     width: 100%;
     text-align: center;
@@ -576,6 +576,7 @@ div {
 .valo-font{
     margin-top: 100px;
     font-family: valorant;
+    font-size: 4rem;
 }
 
 @font-face {

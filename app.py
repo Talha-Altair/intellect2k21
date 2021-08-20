@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-@app.route('/') 
+@app.route('/admin') 
 def home():
     return render_template('index.html')
 
@@ -13,6 +13,10 @@ def artella():
 @app.route('/valo') 
 def valo():
     return render_template('valo.html')
+
+@app.route('/') 
+def admin():
+    return render_template('admin.html')
 
 
 @app.route('/Cookaholics') 
@@ -75,7 +79,7 @@ def hello_world2():
     print(key)
     if (key=='pass'):
         return 'Access Granted'
-    return 'Authentication Failed'    
+    return render_template('404.html')    
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=8080, debug=True)

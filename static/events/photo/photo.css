@@ -38,6 +38,14 @@ html {
 
 }
 
+@media only screen and (max-width: 700.2px) {
+    .eng::before{
+        color: violet;
+        content: "\a";
+        white-space: pre;
+    }
+}
+
 #nav-bar ul li a:hover{
     color: #007bff!important;
 }

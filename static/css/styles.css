@@ -30,12 +30,20 @@
     text-align: center;
     color: #fff;
 }
-@media(max-width: 768px) {
+@media(max-width: 100000px) {
     #landing-logo{
-        font-family: 'Anton', sans-serif;
-        font-size: 5em !important;
+        font-family: 'Teko', sans-serif;
+        font-size: 9rem !important;
     }
 }
+
+/* @media(max-width: 600px) {
+    #navbar{
+        
+
+    }
+}  white-space*/
+
 .landing-con a{
     text-decoration: none;
     border-radius: 50px!important;
@@ -125,9 +133,7 @@ html {
     float: left;
     margin-top: 150px;
     color: white;
-    font-family: cursive;
     
-    font-family: 'Devonshire', cursive;
 }  
 
 .hero-content h1{
@@ -330,6 +336,26 @@ html {
 
 /* end of landing page */
 
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+
+}
+.countdown div{
+    color: white;
+    padding: 25px;
+    border: 2px solid tomato;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown div p{
+    color: white;
+
+}
+
 #register{
     padding-top: 100px;
 }
@@ -348,6 +374,13 @@ html {
 .context h3{
     font-size: 1rem;
 }
+
+/* @media(max-width: 768px) {
+    #register{
+        padding-top: -80px;
+
+    }
+} */
 
 .counter div{
     padding: 30px 40px;
@@ -382,6 +415,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
+
 /* End of intro */
 
 #events{
