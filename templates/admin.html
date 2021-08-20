@@ -20,12 +20,27 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
   <title>Intellect 2K21</title>
 
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P3HBK82');</script>
+  <!-- End Google Tag Manager -->
+
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
 </head>
 
 <body>
-  <div  class="valo-landing">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3HBK82"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="valo-landing">
     <video poster="poster.JPG" autoplay muted loop>
       <source src="/static/videos/BG.mp4" type="video/mp4">
     </video>
@@ -67,7 +82,8 @@
   <section id="register">
     <div class="container">
       <div class="clg-name pos">
-        <h2 style="color: whitesmoke;">B.S.ABDUR RAHMAN CRESCENT INSTITUTE OF <br><span>SCIENCE AND TECHNOLOGY <br> Chennai, Tamil Nadu </span>
+        <h2 style="color: whitesmoke;">B.S.ABDUR RAHMAN CRESCENT INSTITUTE OF <br><span>SCIENCE AND TECHNOLOGY <br>
+            Chennai, Tamil Nadu </span>
         </h2>
       </div>
       <br>
@@ -78,41 +94,43 @@
         <br>
         <div class="timer">
           <h4 style="color: whitesmoke;">EVENT ENDED</h4>
-          
-       <div class="counter">
-         <div id="count">0</div>
 
-	</div>
+          <div class="counter">
+            <div id="count">0</div>
 
-        <div class="para">
-          <br>
-          <br>
-          <p>Is quarantine getting to your head? Got a creative block? We have the perfect set of events for you to
-            exploit. <strong>Intellect2k21 is an International Online Event</strong>, Presenting activities to airbrush some fun into this awfully restless lockdown. 11 events and
-            plenty of fun and memories to keep (Yup, you don’t have to share). Take part in this event where you get to
-            WFH! You might just find something that matches your taste.</p>
-        </div>
-        <br>
-        <div class="gen-rules">
-          <p class="rule">General Rules:</p>
-          <p>Category 1 : School students ( 9th – 12th standard)</p>
-          <p>Category 2 : Diploma & Undergraduate college students</p>
-          <p>Category 3 : Public Awareness Event - Available in Crossword Event Page</p>
-          <br>
-          <p><b>Register Here:</b></p>
-          <div class="btn-group btn-pad" role="group" aria-label="Basic mixed styles example">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdY4asafnyQnTty4g_PmPKCxulumO_4Z3MX_GgJSbfkS_58JA/viewform"
-              target="_blank"><button type="button" class="btn btn-danger" style="padding: 10px 20px;">Category
-                1</button></a>
-
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSejgVMGxJ0VjpEFBr8z4NBIoO9m1pUBMNz7VxgRMSDp8T7B5w/viewform"
-              target="_blank"><button type="button" class="btn btn-success" style="padding: 10px 20px;">Category
-                2</button></a>
           </div>
+
+          <div class="para">
+            <br>
+            <br>
+            <p>Is quarantine getting to your head? Got a creative block? We have the perfect set of events for you to
+              exploit. <strong>Intellect2k21 is an International Online Event</strong>, Presenting activities to
+              airbrush some fun into this awfully restless lockdown. 11 events and
+              plenty of fun and memories to keep (Yup, you don’t have to share). Take part in this event where you get
+              to
+              WFH! You might just find something that matches your taste.</p>
+          </div>
+          <br>
+          <div class="gen-rules">
+            <p class="rule">General Rules:</p>
+            <p>Category 1 : School students ( 9th – 12th standard)</p>
+            <p>Category 2 : Diploma & Undergraduate college students</p>
+            <p>Category 3 : Public Awareness Event - Available in Crossword Event Page</p>
+            <br>
+            <p><b>Register Here:</b></p>
+            <div class="btn-group btn-pad" role="group" aria-label="Basic mixed styles example">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdY4asafnyQnTty4g_PmPKCxulumO_4Z3MX_GgJSbfkS_58JA/viewform"
+                target="_blank"><button type="button" class="btn btn-danger" style="padding: 10px 20px;">Category
+                  1</button></a>
+
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSejgVMGxJ0VjpEFBr8z4NBIoO9m1pUBMNz7VxgRMSDp8T7B5w/viewform"
+                target="_blank"><button type="button" class="btn btn-success" style="padding: 10px 20px;">Category
+                  2</button></a>
+            </div>
+          </div>
+          <!-- <button class="btn btn-danger register">Register now</button> -->
         </div>
-        <!-- <button class="btn btn-danger register">Register now</button> -->
       </div>
-    </div>
   </section>
 
   <section id="events">
@@ -418,7 +436,7 @@
 
       document.getElementById("secs").innerHTML = seconds + "s";
 
-     
+
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -429,28 +447,29 @@
 
     // window.addEventListener("DOMContentLoaded", function () {
 
-     // var count = 100;
-      
-     // count++;
+    // var count = 100;
 
-     // console.log(count)
+    // count++;
+
+    // console.log(count)
 
     //  document.getElementById("visit").innerHTML = count + "Visits";
 
 
-   // }) -->
+    // }) -->
 
-   const countEl = document.getElementById('count');
+    const countEl = document.getElementById('count');
 
-updateVisitCount();
+    updateVisitCount();
 
-function updateVisitCount() {
-	fetch('https://api.countapi.xyz/update/natraj/count/?amount=1')
-	.then(res => res.json())
-	.then(res => {console.log(res)
-		countEl.innerHTML =  (res.value) + " Visits" ;
-	})
-}
+    function updateVisitCount() {
+      fetch('https://api.countapi.xyz/update/natraj/count/?amount=1')
+        .then(res => res.json())
+        .then(res => {
+          console.log(res)
+          countEl.innerHTML = (res.value) + " Visits";
+        })
+    }
 
   </script>
 
