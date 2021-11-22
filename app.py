@@ -57,6 +57,10 @@ def reachout():
 def crossword():
     return render_template('crossword.html')
 
+@app.route('/winners') 
+def winners():
+    return render_template('winners.html')
+
      
 
 @app.route('/about') 
@@ -82,4 +86,4 @@ def hello_world2():
     return render_template('404.html')    
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=8080, debug=False)
+  app.run(host='0.0.0.0', port=8080, debug=True)
